@@ -1,0 +1,38 @@
+
+* {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+nav {
+    background-color:black;
+    height: 50px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    width: 150px;
+    display:inline-block;
+    
+}
+
+li a {
+    color: white;
+   line-height: 50px; /* should be same with height*/
+   text-transform: uppercase;
+   font-weight: bold;
+   transition: color 1s, font-size 500ms ;
+   transition-timing-function:ease ;
+   
+}
+
+nav ul li a:hover {
+    font-size: 2em;
+    color:blue;
+    
+}
